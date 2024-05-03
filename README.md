@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework-6</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/catalog.css">
+</head>
+
+<body>
+    <header class="header">
+ <div class="container">
+ </div>   
+</header>
+
+    <main>
+      
+      
+      <section class="section-catalog">
+    <div class="container">
+        <h2 class="title-catalog">Catalog</h2>
+        <ul class="list-catalog">
+            <li class="item-catalog">
+                <div class="item-catalog-images">
+                    <picture>
+                        <source srcset="./img/images/catalog-1-1x.png 1x, ./img/images/catalog-1-2x.png 2x"
+                            media="(min-width: 1280px)" />
+                        <source srcset="./img/images/catalog-1-tablet.png 1x, ./img/images/catalog-1-tablet-2x.png 2x"
+                            media="(min-width: 768px)" />
+                        <source srcset="./img/images/catalog-1-mob.png 1x, ./img/images/catalog-1-mob-2x.png 2x"
+                            media="(max-width: 767px)" />
+                        <img src="./img/images/catalog-1-mob.png" alt="catalog-1" />
+                    </picture>
+                </div>
+                <div class="container-text">
+                    <h3 class="container-text-title">Garmin Fenix 7X Pro Sapphire Solar</h3>
+                    <p class="catalog-price">€500</p>
+                </div>
+            </li>
+            <li class="item-catalog">
+                <div class="item-catalog-images">
+                    <picture>
+                        <source
+                            srcset="./img/images/catalog-2-1x.png 1x, ./img/images/catalog-2-2x.png 2x"
+                            media="(min-width: 1280px)" />
+                        <source srcset="./img/images/catalog-2-tablet.png 1x, ./img/images/catalog-2-tablet-2x.png 2x"
+                            media="(min-width: 768px)" />
+                        <source srcset="./img/images/catalog-2-mob.png 1x, ./img/images/catalog-2-mob-2x.png 2x"
+                            media="(max-width: 767px)" />
+                        <img src="./img/images/catalog-2-mob.png" alt="catalog-2" />
+                    </picture>
+                </div>
+                <div class="container-text">
+                    <h3 class="container-text-title">Garmin Marq Athlete</h3>
+                    <p class="catalog-price">€450</p>
+                </div>
+            </li>
+            <li class="item-catalog">
+                <div class="item-catalog-images">
+                    <picture>
+                        <source srcset="./img/images/catalog-3-1x.png 1x, ./img/images/catalog-3-2x.png 2x"
+                            media="(min-width: 1280px)" />
+                        <source srcset="./img/images/catalog-3-tablet.png 1x, ./img/images/catalog-3-tablet-2x.png 2x"
+                            media="(min-width: 768px)" />
+                        <source srcset="./img/images/catalog-3-mob.png 1x, ./img/images/catalog-3-mob-2x.png 2x"
+                            media="(max-width: 767px)" />
+                        <img src="./img/images/catalog-3-mob.png" alt="catalog-3" />
+                    </picture>
+                </div>
+                <div class="container-text">
+                    <h3 class="container-text-title">Garmin Descent MK1</h3>
+                    <p class="catalog-price">€680</p>
+                </div>
+            </li>
+            <li class="item-catalog">
+                <div class="item-catalog-images">
+                    <picture>
+                        <source srcset="./img/images/catalog-4-1x.png 1x, ./img/images/catalog-4-2x.png 2x"
+                            media="(min-width: 1280px)" />
+                        <source srcset="./img/images/catalog-4-tablet.png 1x, ./img/images/catalog-4-tablet-2x.png 2x"
+                            media="(min-width: 768px)" />
+                        <source srcset="./img/images/catalog-4-mob.png 1x, ./img/images/catalog-4-mob-2x.png 2x"
+                            media="(max-width: 767px)" />
+                        <img src="./img/images/catalog-4-mob.png" alt="catalog-4" />
+                    </picture>
+                
+                </div>
+                <div class="container-text">
+                    <h3 class="container-text-title">Garmin D2 Delta PX</h3>
+                    <p class="catalog-price">€380</p>
+                </div>
+            </li>
+<!-- не використовується в моб версії-->
+            <li class="item-catalog item-five">
+                <div class="item-catalog-images">
+                    <picture>
+                        <source
+                            srcset="./img/images/catalog-5-1x.png 1x, ./img/images/catalog-5-2x.png 2x"
+                            media="(min-width: 1280px)" />
+                        <source
+                            srcset="./img/images/catalog-5-tablet.png 1x, ./img/images/catalog-5-tablet-2x.png 2x"
+                            media="(min-width: 768px)" />
+                        <img src="./img/images/catalog-5-tablet.png" alt="catalog-5" />
+                    </picture>
+                </div>
+                <div class="container-text">
+                    <h3 class="container-text-title">Garmin Fenix 6 Pro Solar</h3>
+                    <p class="catalog-price">Design</p>
+                </div>
+            </li>
+            <li class="item-catalog item-six">
+                <div class="item-catalog-images">
+                    <picture>
+                        <source srcset="./img/images/catalog-6-1x.png 1x, ./img/images/catalog-6-2x.png 2x"
+                            media="(min-width: 1280px)" />
+                        <source 
+                        srcset="./img/images/catalog-6-tablet.png 1x, ./img/images/catalog-6-tablet-2x.png 2x"
+                        media="(min-width: 768px)" />
+                        <img src="./img/images/catalog-6-tablet.png" alt="catalog-6" />
+                    </picture>
+                </div>
+                <div class="container-text">
+                    <h3 class="container-text-title">Tube Watch S42 Date Steel With Black Case</h3>
+                    <p class="catalog-price">€395</p>
+                </div>
+            </li>
+        </ul>
+<!-- для моб версії-->
+<button class="catalog-button" type="button">Show more</button>
+</div>
+</section>
+      
+      
+      
+      
+    </main>
+    
+
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
